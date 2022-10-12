@@ -4,10 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {BrowserRouter} from 'react-router-dom'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      {/* <h1>installed react-router-dom</h1> */}
+      <App />
+    
+    </BrowserRouter>
+
+    {/* <App /> */}
+    {/* <h2>Hello React</h2> */}
   </React.StrictMode>
 );
 
